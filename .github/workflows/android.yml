@@ -28,7 +28,7 @@ jobs:
 
       - name: Extract Android project
         run: |
-          unzip -q AI_Camera_Overlay_UI_1.3.zip -d extracted
+          unzip unzip -q AI_Camera_Overlay_UI_Prototype.zip -d extracted
 
       - name: Fix Java and Kotlin JVM target
         working-directory: extracted/AI_Camera_Overlay_UI_Prototype
